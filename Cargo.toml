@@ -1,0 +1,27 @@
+[package]
+name = "cargo-mercury"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = ""Perform Mercury Test on Codebase""
+documentation = "https://docs.rs/cargo-mercury"
+homepage = "https://github.com/cryptopatrick/cargo-mercury"
+repository = "https://github.com/cryptopatrick/cargo-mercury"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "cargo-mercury"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
